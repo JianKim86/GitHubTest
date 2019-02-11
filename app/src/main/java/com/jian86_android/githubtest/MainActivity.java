@@ -11,5 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle("changeTitle");
         //깃에서 받기
+        //내가 원하는 추가 작업
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
